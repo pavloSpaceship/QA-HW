@@ -1,0 +1,266 @@
+{
+	"id": "08827a22-76d7-4bea-a1db-1954ac78dcbf",
+	"name": "store2/order",
+	"timestamp": "2022-05-18T19:02:57.866Z",
+	"collection_id": "20947690-8d3cac5e-7abd-46fd-b472-900bdb1433c5",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 7,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "bc40c74d-394e-4d6a-b487-15a8e25a69ba",
+			"name": "Positive test store2/order",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 509,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"validating responce code": true
+			},
+			"testPassFailCounts": {
+				"validating responce code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				509
+			],
+			"allTests": [
+				{
+					"validating responce code": true
+				}
+			]
+		},
+		{
+			"id": "db829c92-9baf-4a99-ad1a-2d147a0cab0d",
+			"name": "Negative. input negative numbers in quantity",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 140,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"validating responce code": true
+			},
+			"testPassFailCounts": {
+				"validating responce code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				140
+			],
+			"allTests": [
+				{
+					"validating responce code": true
+				}
+			]
+		},
+		{
+			"id": "fa84d3a7-856d-4251-a0b1-d8433b079d49",
+			"name": "Negative. input negative numbers in petid",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 138,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"validating responce code": true
+			},
+			"testPassFailCounts": {
+				"validating responce code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				138
+			],
+			"allTests": [
+				{
+					"validating responce code": true
+				}
+			]
+		},
+		{
+			"id": "81ede157-193b-455a-87c9-78a453944230",
+			"name": "Negative. input negative numbers in id",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 139,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"validating responce code": false
+			},
+			"testPassFailCounts": {
+				"validating responce code": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				139
+			],
+			"allTests": [
+				{
+					"validating responce code": false
+				}
+			]
+		},
+		{
+			"id": "e1ad0400-3862-422e-921f-17914660c770",
+			"name": "Negative. input letters in id",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 136,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"validating responce code": true
+			},
+			"testPassFailCounts": {
+				"validating responce code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				136
+			],
+			"allTests": [
+				{
+					"validating responce code": true
+				}
+			]
+		},
+		{
+			"id": "eaf4de30-e157-4f06-a19c-3359bb420e94",
+			"name": "Negative. input  letters in petid",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 140,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"validating responce code": true
+			},
+			"testPassFailCounts": {
+				"validating responce code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				140
+			],
+			"allTests": [
+				{
+					"validating responce code": true
+				}
+			]
+		},
+		{
+			"id": "a7467efc-dab9-44a2-b332-bf755c9bee05",
+			"name": "Negative. input letters in quntiti",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 137,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"validating responce code": true
+			},
+			"testPassFailCounts": {
+				"validating responce code": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"validating responce code": true
+				}
+			]
+		},
+		{
+			"id": "74318609-811e-408e-a24a-0bb064ce9be4",
+			"name": "Positive. withbody",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response must be valid and have a body": true
+			},
+			"testPassFailCounts": {
+				"response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"response must be valid and have a body": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1476,
+	"collection": {
+		"requests": [
+			{
+				"id": "bc40c74d-394e-4d6a-b487-15a8e25a69ba",
+				"method": "POST"
+			},
+			{
+				"id": "db829c92-9baf-4a99-ad1a-2d147a0cab0d",
+				"method": "POST"
+			},
+			{
+				"id": "fa84d3a7-856d-4251-a0b1-d8433b079d49",
+				"method": "POST"
+			},
+			{
+				"id": "81ede157-193b-455a-87c9-78a453944230",
+				"method": "POST"
+			},
+			{
+				"id": "e1ad0400-3862-422e-921f-17914660c770",
+				"method": "POST"
+			},
+			{
+				"id": "eaf4de30-e157-4f06-a19c-3359bb420e94",
+				"method": "POST"
+			},
+			{
+				"id": "a7467efc-dab9-44a2-b332-bf755c9bee05",
+				"method": "POST"
+			},
+			{
+				"id": "74318609-811e-408e-a24a-0bb064ce9be4",
+				"method": "POST"
+			}
+		]
+	}
+}
